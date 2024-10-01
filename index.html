@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Comida en Línea</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Realiza tu Pedido</h1>
+    <form id="pedidoForm">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label for="direccion">Dirección de Entrega:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+        <div>
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <h3>Selecciona tus artículos:</h3>
+            <div id="menu">
+            </div>
+        </div>
+        <div>
+            <h3>Total: $<span id="total">0.00</span></h3>
+        </div>
+        <button type="submit">Enviar Pedido</button>
+    </form>
+
+    <div id="confirmacion" style="display: none;">
+        <h2>Pedido Confirmado</h2>
+        <p>Número de Pedido: <span id="numeroPedido"></span></p>
+        <p>Detalles del Pedido:</p>
+        <ul id="detallesPedido"></ul>
+        <p>Total: $<span id="totalConfirmacion"></span></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
