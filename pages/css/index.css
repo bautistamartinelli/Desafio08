@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #c0392b;
+    align-items: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+margin-right: 20px;    
+}
+
+form, #confirmacion {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+div {
+    margin-bottom: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input:focus {
+    outline: none;
+    border-color: #c0392b;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e74c3c;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+    color: #c0392b;
+}
+
+#confirmacion h2 {
+    color: #c0392b;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#confirmacion ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+#confirmacion ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+#confirmacion p {
+    font-size: 1.2em;
+}
+
+#confirmacion span {
+    font-weight: bold;
+}
+
+#confirmacion {
+    display: none;
+}
+
+#menu div {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
